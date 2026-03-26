@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matcha-bg: #FAFAF5;
+  --color-matcha-primary: #7C9A5E;
+  --color-matcha-secondary: #4A5D3E;
+  --color-matcha-accent: #D4A574;
+  --color-matcha-text: #2D2D2D;
+  --color-matcha-muted: #9B9B8B;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-matcha-bg);
+  color: var(--color-matcha-text);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.matcha-item {
+  will-change: transform, opacity;
+}
